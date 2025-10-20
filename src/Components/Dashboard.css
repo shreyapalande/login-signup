@@ -1,0 +1,48 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(120deg, seagreen, mediumseagreen);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 100px;
+}
+
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.dashboard-card p {
+  margin: 5px 0;
+  color: #f1f1f1;
+}
+
+.logout-btn {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: white;
+  color: seagreen;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #f1f1f1;
+}
