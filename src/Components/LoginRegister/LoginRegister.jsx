@@ -70,6 +70,7 @@ const LoginRegister = () => {
             setMessage({ text: "Login successful!", type: "success" });
             setUsername("");
             setPassword("");
+            localStorage.setItem("isLoggedIn", "true");
             setTimeout(() => navigate("/dashboard"), 800);
         } else {
             setMessage({

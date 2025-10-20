@@ -8,6 +8,7 @@ const Dashboard = () => {
 
     const handleLogout = () => {
         localStorage.removeItem("user");
+        localStorage.removeItem("isLoggedIn");
         navigate("/");
     };
 
